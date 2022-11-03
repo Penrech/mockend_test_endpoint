@@ -1,7 +1,62 @@
 {
-    "Log": {
-      "registerId": "string",
-      "eventId": "string",
-      "loggedAt": "date"
+  "data": [
+    {
+      "id": "1",
+      "name": "New York",
+      "sequence": 1,
+      "country": "US",
+      "city": "New York",
+      "date": "2022-12-02",
+      "hasSessionResults": false,
+      "hasRaceResults": false,
+      "championship": {
+        "id": "f2772303-ff37-47d2-ab10-fe6e3c6f2436",
+        "name": "SEASON 2022-2023",
+        "status": "Past",
+        "lastFinishedRound": 0
+      },
+      "sessions": [
+        {
+          "id": "672220b9-9ae2-47fe-8079-0931bd743694",
+          "sessionName": "Test session 1",
+          "sessionDate": "2022-11-29",
+          "startTime": "09:00",
+          "finishTime": "12:00",
+          "offsetGMT": "-04:00"
+        },
+        {
+          "id": "df4bade0-d030-4236-ad6f-1fa4b19e2efb",
+          "sessionName": "Test session 2",
+          "sessionDate": "2022-11-29",
+          "startTime": "14:00",
+          "finishTime": "17:00",
+          "offsetGMT": "-04:00"
+        },
+        {
+          "id": "c38075de-e30c-4d4a-91eb-b5bb59955de0",
+          "sessionName": "Test session 3",
+          "sessionDate": "2022-11-30",
+          "startTime": "09:00",
+          "finishTime": "12:00",
+          "offsetGMT": "-04:00"
+        },
+        {
+          "id": "50b31d52-26ae-48a5-ba83-2e3bd8315a9d",
+          "sessionName": "Test session 4",
+          "sessionDate": "2022-11-30",
+          "startTime": "14:00",
+          "finishTime": "17:00",
+          "offsetGMT": "-04:00"
+        },
+        {
+          "id": "3336d7df-12c0-46a4-b872-cff94bf83f0a",
+          "sessionName": "Test session 5",
+          "sessionDate": "2022-12-02",
+          "startTime": "09:00",
+          "finishTime": "15:00",
+          "offsetGMT": "-04:00"
+        }
+      ]
     }
-  }
+  ]
+}
